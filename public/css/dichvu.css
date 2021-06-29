@@ -1,0 +1,52 @@
+
+.giua1 .anhde a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+    background: #ff2562;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.95em;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+.motadv{
+  display: flex;
+}
+.thongtin{
+  margin-left: 50px;
+}
+.ketqua{
+  display: inline-flex;
+}
+.ketqua .ketqua1{
+  margin-left: 20px;
+  box-shadow: 5px 2px 5px 2px #888888;
+}
+.ketqua .ketqua1 .thongtin li{
+    margin-top: 5px;
+}
+.See{
+  padding-left: 45%;
+  margin-bottom: 40px;
+}
+.See a{
+position: relative;
+display: inline-block;
+padding: 15px 30px;
+margin-top: 20px;
+background: #ff2562;
+color: #fff;
+text-transform: uppercase;
+font-size: 0.95em;
+font-weight: 700;
+letter-spacing: 2px;
+text-decoration: none;
+text-align: center;
+}
+.See a:hover{
+ background:#fc00ff;
+}

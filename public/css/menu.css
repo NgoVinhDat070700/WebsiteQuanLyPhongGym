@@ -1,0 +1,106 @@
+#Tong{
+	width: 1296px;
+	margin:-10px auto;
+}
+#banner
+{
+	width: 1296px;
+}
+nav.menu_header{
+	background: black;
+	position: fixed;
+	width: 1296px;
+	z-index: 9999;
+	display: flex;
+	height: 90px;
+	margin-top: 0px;
+	padding-top: 0px;
+  }
+  nav.menu_header:after{
+	content: '';
+	clear: both;
+	display: table;
+  }
+  nav.menu_header .logo{
+	float: left;
+	margin-left: 50px;
+	margin-top: 5px;
+  }
+  nav.menu_header ul{
+	float: right;
+	margin-right: 40px;
+	list-style: none;
+	position: relative;
+  }
+  nav.menu_header ul li{
+	
+	display: inline-block;
+	background: black;
+	margin: 0 5px;
+  }
+  nav.menu_header ul li a{
+	color: white;
+	line-height: 70px;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 8px 15px;
+  }
+  nav.menu_header ul li a:hover{
+	color: cyan;
+	border-radius: 5px;
+	box-shadow:  0 0 5px #33ffff,
+				 0 0 10px #66ffff;
+  }
+  nav.menu_header ul ul li a:hover{
+	box-shadow: none;
+  }
+  nav.menu_header ul ul{
+	position: absolute;
+	top: 90px;
+	width: 80px;
+	border-top: 3px solid yellow;
+	opacity: 0;
+	visibility: hidden;
+	transition: top .3s;
+  }
+  nav.menu_header ul ul ul{
+	border-top: none;
+  }
+  nav.menu_header ul li:hover > ul{
+	top: 70px;
+	opacity: 1;
+	visibility: visible;
+  }
+  nav.menu_header ul ul li{
+	position: relative;
+	margin-top: 0px;
+	margin-left: -40px;
+	width: 120px;
+	float: none;
+	display: list-item;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+  }
+  nav.menu_header ul ul li a{
+	line-height: 50px;
+  }
+  nav.menu_header ul ul ul li{
+	position: relative;
+	top: -60px;
+	left: 100px;
+  }
+  .show,.icon,input.btn-1{
+	display: none;
+  }
+  .fa-plus{
+	font-size: 15px;
+	margin-left: 0px;
+  }
+  .pagination{
+	display: flex;
+	align-items: center;
+	padding-left: 620px;
+}
+.pagination li{
+	margin-left: 5px;
+	font-size: 25px;
+}
